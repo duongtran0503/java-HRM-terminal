@@ -1,20 +1,20 @@
 # java-HRM-terminal
-đồ án hướng đói tượng  java nhóm 5\\
-tài khoản đăng nhập demo chức năng\\
-1.nhân viên(tinh năng của nhân viên chưa được cập nhật)\\
-tên người dùng:nhan vien 1\\\
-mật khẩu1\\
+đồ án hướng đói tượng  java nhóm 5<br>
+tài khoản đăng nhập demo chức năng<br>
+1.nhân viên(tinh năng của nhân viên chưa được cập nhật)<br>
+tên người dùng:nhan vien 1<br>
+mật khẩu1<br>
 2.quản tri viên\\
-tên người dùng:quan tri 1\\
-mât khẩu:1 \\
-3.quản lý nhân sự:\\
-tên người dùng:nhan su 1\\
-mật khâu:1 \\
-4.quản lý nhân lực\\
-tên người dùng:nhan luc 1\\
-mật khẩu:1 \\
-5.quản lý tài chính\\
-tên người dùng:tai chinh 1\\
-mât khẩu:1 \\
+tên người dùng:quan tri 1<br>
+mât khẩu:1<br>
+3.quản lý nhân sự:<br>
+tên người dùng:nhan su 1<br>
+mật khâu:1<br>
+4.quản lý nhân lực<br>
+tên người dùng:nhan luc 1<br>
+mật khẩu:1 <br>
+5.quản lý tài chính<br>
+tên người dùng:tai chinh 1<br>
+mât khẩu:1 <br>
 6.trường bản(chúc năng trưởng ban chưa dduoc cập nhật)
 
