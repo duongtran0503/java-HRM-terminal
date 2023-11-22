@@ -16,5 +16,5 @@ mật khẩu:1 <br>
 5.quản lý tài chính<br>
 tên người dùng:tai chinh 1<br>
 mât khẩu:1 <br>
-6.trường bản(chúc năng trưởng ban chưa dduoc cập nhật)
+6.trưởng bản(chúc năng trưởng ban chưa dduoc cập nhật)
 
