@@ -1,4 +1,5 @@
 # java-HRM-terminal
+@@ chay file app để bắt đầu sử dụng ứng dụng <br>
 đồ án hướng đói tượng  java nhóm 5<br>
 tài khoản đăng nhập demo chức năng<br>
 1.nhân viên(tinh năng của nhân viên chưa được cập nhật)<br>
