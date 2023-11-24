@@ -9,7 +9,15 @@ import model.TaiKhoan;
 public class User {
     public static TaiKhoan userAcount = new TaiKhoan();
 
+    public static boolean checkEmail(String email) {
+        String ePattern = "^[(a-zA-Z-0-9-\\_\\+\\.)]+@[(a-z-A-z)]+\\.[(a-zA-z)]{2,3}$";
+        java.util.regex.Pattern p = java.util.regex.Pattern.compile(ePattern);
+        java.util.regex.Matcher m = p.matcher(email);
+        return m.matches();
+    }
+
     public void login() {
+
         int selector = 10;
         System.out.println(HeThong.state);
         if (selector == 0) {
@@ -45,11 +53,21 @@ public class User {
         HashMap<String, String> listAcount = HeThong.getDATA(selector);
         System.out.println("-----------------------------------");
         inputs.nextLine();
-        System.out.print("Nhan ten nguoi dung:");
-        String userName = inputs.nextLine();
+        String userName;
+        do {
+            System.out.print("Nhan email nguoi dung:");
+            userName = inputs.nextLine();
+            if (!checkEmail(userName)) {
+                System.out.println("----------------------------------------------");
+                System.out.println("dinh dang email khong dung hay nhap lai email!");
+                System.out.println("----------------------------------------------");
+            }
+        } while (!checkEmail(userName));
+
         System.out.print("nhap mat khau:");
         String userPass = inputs.nextLine();
         userAcount = new TaiKhoan(userName, userPass, selector);
+
         System.out.println("----------------------------------------------");
         boolean checkuser = false;
         boolean checkpass = false;

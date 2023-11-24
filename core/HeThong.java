@@ -48,7 +48,7 @@ public class HeThong {
     }
 
     public static List<String> getList(int selector) {
-        return Store.listTemplate;
+        return Store.listNhanVien;
     }
 
     public static void setDATA() {
