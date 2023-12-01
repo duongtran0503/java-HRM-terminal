@@ -1,9 +1,10 @@
 package service.Menu;
 
 import java.util.InputMismatchException;
+import java.util.List;
 import java.util.Scanner;
-
 import core.HeThong;
+import model.NhanVien;
 
 public class qlNhanSu {
     public static void menuHopDong() {
@@ -253,6 +254,10 @@ public class qlNhanSu {
                     case 5: {
                         System.out.println("----------------------------------");
                         System.out.println("chuc nang:   danh sach nhan vien");
+                        List<NhanVien> list = HeThong.getList(1);
+                        for (NhanVien person : list) {
+                            System.out.println(person);
+                        }
                     }
                         break;
                     default:
